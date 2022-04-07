@@ -1,13 +1,14 @@
 new Vue({
     el:'#vue-app',
     data: {
-        name:'Michael',
+        name:'',
         job:'Front End Developer',
         website:'https://my.uncc.edu',
         websiteTag: '<a href="https://my.uncc.edu> UNCC Website</a>',
-        age: 21,
+        age: '',
         x: 0,
-        y: 0
+        y: 0,
+        date: ''
     },
     methods: {
         greet: function(time){
@@ -25,6 +26,10 @@ new Vue({
         },
         click: function() {
             alert("You clicked the link")
+        },
+        show: function() {
+            document.getElementById('sign').style.display = "block";
+            document.getElementById('buttonHide').style.display = "none";
         }
     }
 });

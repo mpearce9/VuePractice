@@ -4,3 +4,14 @@
     text-align: center;
     border: 1px solid #333;
 }
+
+#blank{
+    padding: 1px 50px;
+    border-bottom: 1px solid #333;
+    font-family: "Brush Script MT", cursive;
+}
+
+#blank2{
+    padding: 1px 50px;
+    border-bottom: 1px solid #333;
+}
