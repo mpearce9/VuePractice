@@ -1,0 +1,6 @@
+venv/
+timesheet/
+.vscode*
+.idea/
+__pycache__
+package-lock
